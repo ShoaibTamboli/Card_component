@@ -11,14 +11,12 @@ body{
 
 display: flex;
 flex-direction: column;
-
-/* border:1px solid gray;
- width:17.5rem;
+border:1px solid gray;
+/* 
  gap:6px;
- border-radius: 0.4rem;
- box-shadow: 3px 2px 5px gray; */
+ */
  padding-top: 20px;
- width: 30rem;
+ max-width: 350px;
  border-radius: 4px;
  box-shadow: 3px 2px 5px gray;
  justify-content: center;
@@ -27,6 +25,34 @@ margin: auto;
 }
 
 .card-image img{
-    width: 478px;
-    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius:0px 20px 20px 0px
 }
+
+.card-body{
+    padding: 0px 10px;
+}
+
+.card-body-heading h2{
+margin: 0px;
+font-size: 20px;
+}
+.card-body-heading p{
+    margin: 0px 0px 10px 0px;
+    font-size: 14px;
+    }
+.card-body-description{
+    font-size: 14px;
+}
+.card-footer{
+    padding: 10px 10px;
+    width: 100%;
+}
+.card-footer-buttons{
+padding: 0px 10px;
+display: flex;
+justify-content: space-around;
+
+}
+
