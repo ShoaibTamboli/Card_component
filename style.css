@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: #f7f7f7;
+}
+
+.card-container{
+
+display: flex;
+flex-direction: column;
+
+/* border:1px solid gray;
+ width:17.5rem;
+ gap:6px;
+ border-radius: 0.4rem;
+ box-shadow: 3px 2px 5px gray; */
+ padding-top: 20px;
+ width: 30rem;
+ border-radius: 4px;
+ box-shadow: 3px 2px 5px gray;
+ justify-content: center;
+ align-items: center;
+margin: auto;
+}
+
+.card-image img{
+    width: 478px;
+    height: 200px;
+}
