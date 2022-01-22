@@ -22,6 +22,7 @@ border:1px solid gray;
  justify-content: center;
  align-items: center;
 margin: auto;
+cursor: pointer;
 }
 
 .card-image img{
@@ -47,7 +48,7 @@ font-size: 20px;
 }
 .card-footer{
     padding: 10px 10px;
-    width: 100%;
+    width: -webkit-fill-available;
 }
 .card-footer-buttons{
 padding: 0px 10px;
@@ -56,3 +57,10 @@ justify-content: space-around;
 
 }
 
+.card-footer-buttons span{
+    color: #6200ee;
+}
+
+.card-footer:hover{
+    background-color: rgba(248, 237, 237, 0.555);;
+}
