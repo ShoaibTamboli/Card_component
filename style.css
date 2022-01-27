@@ -118,6 +118,8 @@ body {
 }
 
 .card-footer-btom {
+    cursor: pointer;
+}
 
 .card-footer-buttons-btom {
     display: flex;
