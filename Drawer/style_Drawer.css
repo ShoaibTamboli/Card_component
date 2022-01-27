@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(168, 168, 168);
+}
+
+.drawer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  background-color: rgb(254, 255, 254);
+  height: 50vh;
+ 
+}
+
+.drawer-head h1{
+font-size: 20px;
+margin: 0;
+}
+
+.drawer-head p{
+    font-size: 14px;
+    margin: 0;
+}
+.drawer-body >div:hover{
+    background-color: rgba(228, 228, 228, 0.993)
+    
+}
+.drawer-body >div span:hover{
+    color: rgba(98,0,238,.87);
+    
+}
+.drawer-body span{
+    padding: 0px 8px;
+}
+
+.drawer-body div{
+    margin: 8px;
+  
+}
+
+.drawer-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
