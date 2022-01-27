@@ -7,11 +7,11 @@ body {
     background-color: #f7f7f7;
 }
 /* Main */
-/* .Main-Container{
+.Main-Container{
     display: flex;
     flex-wrap: wrap;
     
-} */
+}
 /* Basic */
 .card-container {
 
@@ -239,6 +239,7 @@ justify-content: flex-start;
      border: 1px solid gray;
      cursor: pointer;
      max-width: 350px;
+     height: max-content;
 }
 
 .card-hit-img img {
