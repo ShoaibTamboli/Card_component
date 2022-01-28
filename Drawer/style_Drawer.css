@@ -9,7 +9,7 @@ body{
     justify-content: center;
   background-color: rgb(254, 255, 254);
   height: 50vh;
- 
+ width: 350px;
 }
 
 .drawer-head h1{
@@ -43,4 +43,11 @@ margin: 0;
     flex-direction: column;
     justify-content: center;
     
+}
+.drawer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: rgb(129, 126, 121);
 }
