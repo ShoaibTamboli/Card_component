@@ -1,0 +1,28 @@
+.header_container{
+    display: flex;
+    background-color: gray;
+    align-items: baseline;
+    flex-wrap: wrap;
+    
+}
+
+.header-wrapper{
+
+background-color: greenyellow;
+
+}
+
+.header_container>div{
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+.header-left-element {
+justify-content: flex-end;
+}
+
+p{
+    overflow-y: scroll;
+    margin: 0;
+    height: 200px;
+}

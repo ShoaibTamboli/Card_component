@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+  
+}
+
+
+.primary_btn_chip{
+    background-color: rgb(208, 109, 238);
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(113, 108, 114);
+    margin: 0px 20px;
+}
+
+.secondary_btn_chip{
+    background-color: #807d7e;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(71, 73, 73);
+    margin: 0px 20px;
+  border: 2px solid rgb(63, 62, 62);
+}
+
+.chip-container{
+    display:flex;
+    background-color: rgb(227, 227, 241);
+    flex-wrap: wrap;
+    align-items: center;
+    height: 50vh;
+    
+}
+.chip{
+    padding: 10px 20px;
+}
+
+.chip_with_icon{
+    background-color: #e99db6;
+    border-radius: 30px;
+}
+
+.contact{
+    padding-right:10px;
+
+}
+
+.circle{
+    position: relative;
+    top: -7px;
+    left: 4px;
+    cursor: pointer;
+
+}
