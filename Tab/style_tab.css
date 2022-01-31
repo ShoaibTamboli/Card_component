@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(244, 245, 245);
+}
+
+.scroll_container{
+    display: flex;
+    justify-content: center;
+
+}
+div>span{
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+div>span:hover{
+    background-color: darkgray;
+    
+}
+div>span:active{
+    border-bottom: darkolivegreen;
+}
