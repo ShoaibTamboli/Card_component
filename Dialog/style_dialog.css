@@ -1,0 +1,25 @@
+.dialog-container{
+   background-color: rgb(162, 163, 161);
+   width: 300px;
+   margin: auto;
+}
+
+.dialog-container h2{
+    text-align:center;
+}
+.dialog-container >div{
+    width: 200px;
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dialog-container >div:hover{
+  background-color: darkseagreen;
+}
+
+.dialog-container i{
+    margin: 0px 10px;
+}
